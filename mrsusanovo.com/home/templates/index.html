@@ -1,0 +1,17 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>MrSusanovo</title>
+      {% load static %}
+      <link rel="stylesheet" type="text/css" href="{% static 'style/css/bootstrap.css' %}"/>
+      <link rel="stylesheet" type="text/css" href="{% static 'style/css/main.css' %}"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    </head>
+    <body class="main-body">
+      <div class = "content">{{content}}</div>
+      <p class = "title">{{title}}</p>
+    </body>
+    <script src="{% static 'js/title.js' %}"></script>
+  </html>
+  
