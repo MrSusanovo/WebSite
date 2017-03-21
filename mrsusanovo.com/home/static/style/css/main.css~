@@ -2,6 +2,18 @@ body {
     background-color: rgba(0,0,0,1);
 }
 
+.content{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 52px;
+    text-align: center;
+    color: rgba(152,152,152, 1);
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
 .title {
     color: rgba(244,244,244,1);
     position: absolute;
@@ -20,7 +32,7 @@ body {
     right: 4%;
     width: 20px;
     height: 20px;
-    background: rgba(72, 72, 72, 0);
+    background: gba(72, 72, 72, 0);
     -webkit-transition: width 500ms ease, height 0s ease;
     transition: width 500ms ease, height 0s ease;
 }
@@ -28,7 +40,7 @@ body {
 .menu-wrap:hover{
     background: rgba(72, 72, 72, 0);
     width: 180px;
-    height: 560px;
+    height: 420px;
     position: absolute;
     right: 4%;
     -webkit-transition: width 500ms ease, height 0s ease;

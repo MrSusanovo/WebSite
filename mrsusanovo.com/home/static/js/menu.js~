@@ -1,0 +1,10 @@
+$("menutag-About").on("click",function(){
+    console.log("about clicked");
+    $.get("about",function(data){
+	$(".title").html(data);
+    });
+});
+
+$("menutag-GitHub").on("click",function(){
+    window.open("http://github.com/MrSusanovo");
+});

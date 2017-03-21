@@ -17,12 +17,14 @@
       <div class="menu-wrap">
 	<div class="menu"></div></br>
 	{% for option in menu %}
-	<a class="menu-opt" id="menutag-{{option}}" href="{{option}}">{{option}}</a></br>
+	<p class="menu-opt" id="menutag-{{option}}" href="{{option}}">{{option}}</p></br>
 	{% endfor %}
       </div>
       <div class = "content">{{content}}</div>
       <p class = "title" style="display: none">{{title}}</p>
     </body>
-    <script src="{% static 'js/title.js' %}"></script>
+    {% for script in scripts %}
+    <script src="{% static script %}"></script>
+    {% endfor %}
   </html>
   
